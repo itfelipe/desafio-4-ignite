@@ -9,7 +9,7 @@ import { useCart } from '../../hooks/useCart';
 const Header = (): JSX.Element => {
   const { cart } = useCart();
   const cartSize = cart.length;
-
+//preciso entender sobre usecontext
   return (
     <Container>
       <Link to="/">
